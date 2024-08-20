@@ -1,0 +1,22 @@
+//Maior de Dois Números
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+//Variaveis
+int num1, num2;
+
+//Algoritmo para imprimir dois numeros
+ printf("Digite dois numeros:\n");
+  scanf("%i \n", &num1);
+  scanf("%i \n", &num2);
+  
+//Algoritmo para mostrar o maior entre eles
+ if (num1 > num2){
+ 	printf("O maior numero e o:\n %i", num1);
+ }else{
+ 	printf("O maior numero e o:\n %i", num2);
+ }
+ 
+return 0;
+}
