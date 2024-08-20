@@ -1,0 +1,20 @@
+//Calcular a Média de Três Numeros
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+//Variaveis
+int num1, num2, num3;
+float resultado;
+
+//Algoritmo para imprimir os numeros
+ printf("Digite três numeros:\n");
+  scanf("%i", &num1);
+  scanf("%i", &num2);
+  scanf("%i", &num3);
+
+//Algoritmo para calcular a media dos três numeros:
+ resultado = num1 + num2 + num3 /3;
+ printf("O resultado da media dos três numeros e:\n %f", resultado);
+return 0;
+}
