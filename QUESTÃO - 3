@@ -1,0 +1,20 @@
+//Par ou Ímpar
+#include <stdio.h>
+
+int main(){
+//Variaveis
+ int num1;
+
+//Algoritmo para ler um numero
+ printf("Digite um numero:\n");
+  scanf("%i", &num1);
+ 
+//Algoritmo para mostrar se o numero e impar ou par
+ printf("Este numero e:\n");
+ if(num1%2 == 0){
+ 	printf("Par");
+ }else{
+ 	printf("Impar");
+ }
+return 0;
+}
