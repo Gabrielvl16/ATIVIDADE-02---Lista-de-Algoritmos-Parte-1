@@ -1,0 +1,19 @@
+//Contagem Regressiva
+#include <Windows.h>
+#include <stdio.h>
+
+int main() {
+//Variaveis
+  int numero;
+
+//Algoritmo para receber um numero
+ printf("Digite o numero que deseja deixar em ordem decrescente:\n");
+  scanf("%i", &numero);
+  
+//Algoritmo para deixar em ordem descrescente
+  while (numero-- > 1) {
+      Sleep(500); 
+      printf("\n%i", numero);
+  }
+
+  return 0;
