@@ -1,0 +1,19 @@
+//Fatorial de um Número
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+//Variaveis
+int fatorial, numero;
+
+//Algoritmo para inserir um numero
+printf("Insira um valor para o qual deseja calcular seu fatorial: ");
+scanf("%d", &numero);
+
+//Algoritmo para calcular o fatorial do numero
+for(fatorial = 1; numero > 1; numero = numero - 1)
+fatorial = fatorial * numero;
+
+printf("\nFatorial calculado: %d", fatorial);
+return 0;
+}
