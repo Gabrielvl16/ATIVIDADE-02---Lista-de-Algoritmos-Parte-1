@@ -1,0 +1,18 @@
+//Conversão de Temperatura
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+//Variaveis
+float celsius, fahrenheit, resultado;
+
+//Algoritmo receber a temperatura em Celsius
+ printf("Digite uma temperatura em Celsius para ser convertida:\n");
+  scanf("%f", &celsius);
+
+//Algoritmo para converter a temperatura
+ resultado = (celsius * 9/5) + 32;
+ printf("A temperatura em Fahrenheit e:\n %f", resultado);
+ 
+return 0;
+}
