@@ -1,0 +1,17 @@
+//Tabuada
+#include <iostream>
+using namespace std;
+
+int main(){
+//Variaveis
+int num, aux;
+
+//Algoritmo para montar a tabuada
+ cout << "Tabuada do numero:\n";
+ cin >> num;
+
+ for(aux=1; aux<=10; aux++)
+     cout<<num<<" * "<<aux<<" = " << num*aux <<endl;
+     
+return 0;
+}
